@@ -1,0 +1,2367 @@
+App->>>History Clear By D001
+App->>>APPOINTMENT START
+App->>>USING DATE :01/12/2018
+App->>>START ADD
+App->>>N002 ADD P2016#001 APPOINTMENT
+App->>>END ADD
+App->>>Staff Hander : N002
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       01/07/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START ADD
+App->>>D001 ADD P2016#001 APPOINTMENT
+App->>>END ADD
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START ADD
+App->>>D001 ADD P2016#001 APPOINTMENT
+App->>>END ADD
+App->>>APPOINTMENT START
+App->>>USING DATE :12/02/2018
+App->>>START DAIRY
+App->>>N002 view APPOINTMENT DATE 12/02/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START ADD
+App->>>N002 ADD P2016#001 APPOINTMENT
+App->>>END ADD
+App->>>APPOINTMENT START
+App->>>USING DATE :12/02/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 12/02/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START DAIRY
+App->>>N002 view APPOINTMENT DATE 11/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START DAIRY
+App->>>N002 view APPOINTMENT DATE 10/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START DISPLAY
+App->>>Staff Hander : N002
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DISPLAY
+App->>>START SEARCH
+App->>>Staff Hander : N002
+App->>>N002:SEARCH:PATIENT ID:P2016#002
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+|                                                                                   |
+=====================================================================================
+App->>>N002 VIEW DETAIL APPOINTMENT NO. 1
+App->>>END SEARCH
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 10/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>APPOINTMENT START
+App->>>USING DATE :12/11/2018
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 11
+App->>>END DISPLAY
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START ADD
+App->>>D001 ADD P2016#002 APPOINTMENT
+App->>>END ADD
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+| 12 ANG ZI LING        P2016#002       12/22/2018 12:30pm        DELETING          |
+|                                                                                   |
+=====================================================================================
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 11
+App->>>END DISPLAY
+App->>>START BACKUP
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 saved the backup
+App->>>BACKUP :1212D001>001
+11/11/2018|LAI YUH CHAU|01/11/2018|11:45am
+J FERNANDO|P2016#001|LIM SAI KEAT|M
+012-3492834|DRUG ALLERGIES|sejarasakura@gmail.com|CHECK BLOOD
+12/11/2018|SITI FATIMAH|05/11/2018|12:45pm
+ALAN ALBELT|P2017#009|LIM TIAN SHI|F
+012-3247326|FOOD ALLERGIES|bkng19@yahoomail.com|XRAY SCAN
+09/11/2018|LAI YUH CHAU|14/11/2018|01:45pm
+CHIN LIN JACK|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yamakichi@gmail.com|NEED MEDICENT
+08/10/2018|SHIN HUI|13/11/2018|11:45am
+NG WEN JUN|P2016#001|LIM SAI KEAT|M
+012-3492834|DRUG ALLERGIES|yukichan@hotmail.com|PHYCOLOGY TEST
+31/10/2018|WONG KAR JUN|11/11/2018|02:45pm
+MAX LEONG|P2018#010|SOON JONG RE|M
+018-4858495|SINUSITIS|boonTheChuan@gmail.com|BLOOD TEST
+01/11/2018|LAW SHIN HUA|11/11/2018|08:45pm
+WONG KAR HAO|P2017#007|MUHAMAD FARAH|F
+013-4312943|ASTHMA|foundud2111@gmail.com|INJECTION
+28/10/2018|CHIN XIAO HUI|13/11/2018|04:45pm
+MAX LEONG|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yeongYing@hotmail.com|BLOOD TEST
+09/11/2018|WONG KAR JUN|14/11/2018|06:45pm
+ALAN ALBELT|P2016#003|YONG JIAN HUA|M
+012-4734830|NONE|foundud2111@gmail.com|X RAY SCAN
+01/11/2018|LAW SHIN HUA|13/11/2018|12:45pm
+J FERNANDON|P2016#002|ANG ZI LING|F
+018-2346543|SINUSITIS|limjin@student.tarc.edu.my|UREA TEST
+07/10/2018|LAI YUH CHAU|10/11/2018|05:45pm
+ALAN ALBELT|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|haixiao@student.tarc.edu.my|BLOOD TEST
+12/12/2018|CHIN LIN JACK|12/02/2018|12:30pm
+J FERNANDO|P2016#001|LIM SAI KEAT|M
+012-3492834|DRUG ALLERGIES|<NONE>|<remark>
+App->>>EOF:1212D001>001
+App->>>END BACKUP
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START ADD
+App->>>D001 ADD P2018#011 APPOINTMENT
+App->>>END ADD
+App->>>START ADD
+App->>>D001 ADD P2017#005 APPOINTMENT
+App->>>END ADD
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/02/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DISPLAY
+App->>>START MODIFY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/02/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 MODIFYED NO. 11
+App->>>D001 CONFIRM TO MAKE THE CHANGES
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/02/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 MODIFYED NO. 12
+App->>>D001 CONFIRM TO MAKE THE CHANGES
+App->>>END MODIFY
+App->>>START HISTOGRAM
+App->>>Staff Hander : D001
+.                  ===============================================                   
+.                  |                                             |                   
+.                  |        Y-Axis        |    frequency         |
+.                  ==============================================                   
+.                  |      21/12/2018      |           0          |
+.                  |      20/12/2018      |           0          |
+.                  |      19/12/2018      |           0          |
+.                  |      18/12/2018      |           0          |
+.                  |      17/12/2018      |           0          |
+.                  |      16/12/2018      |           0          |
+.                  |      15/12/2018      |           0          |
+.                  |      14/12/2018      |           0          |
+.                  |      13/12/2018      |           0          |
+.                  |      12/12/2018      |           0          |
+.                  |                                             |                   
+.                  ===============================================                   
+App->>>END HISTOGRAM
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :08/11/2018
+App->>>START HISTOGRAM
+App->>>Staff Hander : D001
+.                  ===============================================                   
+.                  |                                             |                   
+.                  |        Y-Axis        |    frequency         |
+.                  ===============================================                   
+.                  |      17/11/2018      |           0          |
+.                  |      16/11/2018      |           0          |
+.                  |      15/11/2018      |           0          |
+.                  |      14/11/2018      |           2          |
+.                  |      13/11/2018      |           3          |
+.                  |      12/11/2018      |           1          |
+.                  |      11/11/2018      |           3          |
+.                  |      10/11/2018      |           2          |
+.                  |      09/11/2018      |           0          |
+.                  |      08/11/2018      |           0          |
+.                  |                                             |                   
+.                  ===============================================                   
+App->>>END HISTOGRAM
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :08/11/2018
+App->>>START RENEW
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+D001 UPDATED 1 FROM PATIEN FILE
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 CONFIRM TO MAKE THE CHANGES OF APPOINTMENT FILE
+App->>>END RENEW
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT DEMO  P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DISPLAY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :08/11/2018
+App->>>START RENEW
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT DEMO  P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+D001 UPDATED 1 FROM PATIEN FILE
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT DEMO  P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 CONFIRM TO MAKE THE CHANGES OF APPOINTMENT FILE
+App->>>END RENEW
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DISPLAY
+App->>>START BACKUP
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 saved the backup
+App->>>BACKUP :0811D001>002
+11/11/2018|LAI YUH CHAU|01/11/2018|11:45am
+J FERNANDO|P2016#001|LIM SAI KEAT|M
+012-3492834|DRUG ALLERGIES|sejarasakura@gmail.com|CHECK BLOOD
+12/11/2018|SITI FATIMAH|05/11/2018|12:45pm
+ALAN ALBELT|P2017#009|LIM TIAN SHI|F
+012-3247326|FOOD ALLERGIES|bkng19@yahoomail.com|XRAY SCAN
+09/11/2018|LAI YUH CHAU|14/11/2018|01:45pm
+CHIN LIN JACK|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yamakichi@gmail.com|NEED MEDICENT
+08/10/2018|SHIN HUI|13/11/2018|11:45am
+NG WEN JUN|P2016#001|LIM SAI KEAT DEMO|M
+012-3492834|DRUG ALLERGIES|yukichan@hotmail.com|PHYCOLOGY TEST
+31/10/2018|WONG KAR JUN|11/11/2018|02:45pm
+MAX LEONG|P2018#010|SOON JONG RE|M
+018-4858495|SINUSITIS|boonTheChuan@gmail.com|BLOOD TEST
+01/11/2018|LAW SHIN HUA|11/11/2018|08:45pm
+WONG KAR HAO|P2017#007|MUHAMAD FARAH|F
+013-4312943|ASTHMA|foundud2111@gmail.com|INJECTION
+28/10/2018|CHIN XIAO HUI|13/11/2018|04:45pm
+MAX LEONG|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yeongYing@hotmail.com|BLOOD TEST
+09/11/2018|WONG KAR JUN|14/11/2018|06:45pm
+ALAN ALBELT|P2016#003|YONG JIAN HUA|M
+012-4734830|NONE|foundud2111@gmail.com|X RAY SCAN
+01/11/2018|LAW SHIN HUA|13/11/2018|12:45pm
+J FERNANDON|P2016#002|ANG ZI LING|F
+018-2346543|SINUSITIS|limjin@student.tarc.edu.my|UREA TEST
+07/10/2018|LAI YUH CHAU|10/11/2018|05:45pm
+ALAN ALBELT|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|haixiao@student.tarc.edu.my|BLOOD TEST
+12/12/2018|CHIN LIN JACK|10/11/2018|12:30pm
+J FERNANDO|P2016#001|LIM SAI KEAT DEMO|M
+012-3492834|DRUG ALLERGIES|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|12/11/2018|12:30pm
+J FERNANDO|P2018#011|TAN JIN CHYI|F
+012-2993259|<none>|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|11/11/2018|04:30pm
+NG WEN JUN|P2017#005|CHONG LING|F
+016-6417375|NONE|<NONE>|<remark>
+App->>>EOF:0811D001>002
+App->>>END BACKUP
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START ADD
+App->>>D001 ADD P2017#008 APPOINTMENT
+App->>>END ADD
+App->>>START ADD
+App->>>D001 ADD P2017#006 APPOINTMENT
+App->>>END ADD
+App->>>START ADD
+App->>>D001 ADD P2016#004 APPOINTMENT
+App->>>END ADD
+App->>>START BACKUP
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 saved the backup
+App->>>BACKUP :1212D001>003
+11/11/2018|LAI YUH CHAU|01/11/2018|11:45am
+J FERNANDO|P2016#001|LIM SAI KEAT|M
+012-3492834|DRUG ALLERGIES|sejarasakura@gmail.com|CHECK BLOOD
+12/11/2018|SITI FATIMAH|05/11/2018|12:45pm
+ALAN ALBELT|P2017#009|LIM TIAN SHI|F
+012-3247326|FOOD ALLERGIES|bkng19@yahoomail.com|XRAY SCAN
+09/11/2018|LAI YUH CHAU|14/11/2018|01:45pm
+CHIN LIN JACK|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yamakichi@gmail.com|NEED MEDICENT
+08/10/2018|SHIN HUI|13/11/2018|11:45am
+NG WEN JUN|P2016#001|LIM SAI KEAT DEMO|M
+012-3492834|DRUG ALLERGIES|yukichan@hotmail.com|PHYCOLOGY TEST
+31/10/2018|WONG KAR JUN|11/11/2018|02:45pm
+MAX LEONG|P2018#010|SOON JONG RE|M
+018-4858495|SINUSITIS|boonTheChuan@gmail.com|BLOOD TEST
+01/11/2018|LAW SHIN HUA|11/11/2018|08:45pm
+WONG KAR HAO|P2017#007|MUHAMAD FARAH|F
+013-4312943|ASTHMA|foundud2111@gmail.com|INJECTION
+28/10/2018|CHIN XIAO HUI|13/11/2018|04:45pm
+MAX LEONG|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yeongYing@hotmail.com|BLOOD TEST
+09/11/2018|WONG KAR JUN|14/11/2018|06:45pm
+ALAN ALBELT|P2016#003|YONG JIAN HUA|M
+012-4734830|NONE|foundud2111@gmail.com|X RAY SCAN
+01/11/2018|LAW SHIN HUA|13/11/2018|12:45pm
+J FERNANDON|P2016#002|ANG ZI LING|F
+018-2346543|SINUSITIS|limjin@student.tarc.edu.my|UREA TEST
+07/10/2018|LAI YUH CHAU|10/11/2018|05:45pm
+ALAN ALBELT|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|haixiao@student.tarc.edu.my|BLOOD TEST
+12/12/2018|CHIN LIN JACK|10/11/2018|12:30pm
+J FERNANDO|P2016#001|LIM SAI KEAT DEMO|M
+012-3492834|DRUG ALLERGIES|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|12/11/2018|12:30pm
+J FERNANDO|P2018#011|TAN JIN CHYI|F
+012-2993259|<none>|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|11/11/2018|04:30pm
+NG WEN JUN|P2017#005|CHONG LING|F
+016-6417375|NONE|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|13/11/2018|06:30pm
+MAX LEONG|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|<email>|<remark>
+12/12/2018|CHIN LIN JACK|14/11/2018|09:30pm
+LIM AH KAO|P2017#006|YEE LING|F
+010-2923543|SINUSITIS|<email>|MEDICENT CARE
+12/12/2018|CHIN LIN JACK|12/01/2018|07:30pm
+J FERNANDO|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|<email>|<remark>
+App->>>EOF:1212D001>003
+App->>>END BACKUP
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>Staff Hander : D001
+App->>>START DELETE
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DELETE
+App->>>DELETE BACKUP:P2016#004
+12/12/2018|CHIN LIN JACK|12/01/2018|07:30pm
+J FERNANDO|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|<email>|<remark>
+App->>>DELETE EOF
+App->>>START DELETE
+App->>>DELETE:D001 DELETED 16
+App->>>D001 CONFIRM TO DELETE
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DELETE
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 16
+App->>>END DISPLAY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START ADD
+App->>>D001 ADD NEW APPOINTMENT
+App->>>END ADD
+App->>>START ADD
+App->>>D001 ADD P2018#013 APPOINTMENT
+App->>>END ADD
+App->>>START DELETE
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 17 SEAN CHI KIANG     P2018#013       12/11/2018 02:30pm        WONG KAR HAO      |
+|                                                                                   |
+=====================================================================================
+App->>>END DELETE
+App->>>DELETE BACKUP:P2018#013
+11/11/2018|CHIN LIN JACK|12/11/2018|02:30pm
+WONG KAR HAO|P2018#013|SEAN CHI KIANG|M
+018-3941243|SEAFOOD ALLERGIES|<email>|<remark>
+App->>>DELETE EOF
+App->>>START DELETE
+App->>>DELETE:D001 DELETED 17
+App->>>D001 CONFIRM TO DELETE
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DELETE
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 16
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 4
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 7
+App->>>END DISPLAY
+App->>>START MODIFY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END MODIFY
+App->>>APPOINTMENT ENDApp->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>N002 view APPOINTMENT DATE 11/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START HISTOGRAM
+App->>>Staff Hander : N002
+.                   ===============================================                   
+.                   |                                             |                   
+.                   |        Y-Axis        |    frequency         |
+.                   ===============================================                   
+.                   |      20/11/2018      |           0          |
+.                   |      19/11/2018      |           0          |
+.                   |      18/11/2018      |           0          |
+.                   |      17/11/2018      |           0          |
+.                   |      16/11/2018      |           0          |
+.                   |      15/11/2018      |           0          |
+.                   |      14/11/2018      |           3          |
+.                   |      13/11/2018      |           3          |
+.                   |      12/11/2018      |           2          |
+.                   |      11/11/2018      |           3          |
+.                   |                                             |                   
+.                   ===============================================                   
+App->>>END HISTOGRAM
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START DELETE
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 10 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 11 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 12 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 13 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 14 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 15 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 16 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+|                                                                                   |
+=====================================================================================
+App->>>END DELETE
+App->>>DELETE BACKUP:P2018#013
+11/11/2018|CHIN LIN JACK|12/11/2018|04:30pm
+ALAN ALBELT|P2018#013|SEAN CHI KIANG|M
+018-3941243|SEAFOOD ALLERGIES|<email>|<remark>
+App->>>DELETE EOF
+App->>>START DELETE
+App->>>DELETE:D001 DELETED 16
+App->>>D001 CONFIRM TO DELETE
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 10 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 11 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 12 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 13 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 14 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 15 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DELETE
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 10 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 11 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 12 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 13 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 14 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 15 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 7
+App->>>END DISPLAY
+App->>>START BACKUP
+App->>>Staff Hander : D001
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 10 LIM SAI KEAT       P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 11 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 12 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 13 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 14 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 15 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END BACKUP
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 12/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>N002 view APPOINTMENT DATE 11/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>APPOINTMENT START
+App->>>USING DATE :12/11/2018
+App->>>START DAIRY
+App->>>D012 view APPOINTMENT DATE 12/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/11/2018
+App->>>START DAIRY
+App->>>D012 view APPOINTMENT DATE 12/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START DISPLAY
+App->>>Staff Hander : D012
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DISPLAY
+App->>>START BACKUP
+App->>>Staff Hander : D012
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>D012 saved the backup
+App->>>BACKUP :1211D012>004
+11/11/2018|LAI YUH CHAU|01/11/2018|11:45am
+J FERNANDO|P2016#001|LIM SAI KEAT|M
+012-3492834|DRUG ALLERGIES|sejarasakura@gmail.com|CHECK BLOOD
+12/11/2018|SITI FATIMAH|05/11/2018|12:45pm
+ALAN ALBELT|P2017#009|LIM TIAN SHI|F
+012-3247326|FOOD ALLERGIES|bkng19@yahoomail.com|XRAY SCAN
+09/11/2018|LAI YUH CHAU|14/11/2018|01:45pm
+CHIN LIN JACK|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yamakichi@gmail.com|NEED MEDICENT
+08/10/2018|SHIN HUI|13/11/2018|11:45am
+NG WEN JUN|P2016#001|LIM SAI KEAT DEMO|M
+012-3492834|DRUG ALLERGIES|yukichan@hotmail.com|PHYCOLOGY TEST
+31/10/2018|WONG KAR JUN|11/11/2018|02:45pm
+MAX LEONG|P2018#010|SOON JONG RE|M
+018-4858495|SINUSITIS|boonTheChuan@gmail.com|BLOOD TEST
+01/11/2018|LAW SHIN HUA|11/11/2018|08:45pm
+WONG KAR HAO|P2017#007|MUHAMAD FARAH|F
+013-4312943|ASTHMA|foundud2111@gmail.com|INJECTION
+28/10/2018|CHIN XIAO HUI|13/11/2018|04:45pm
+MAX LEONG|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yeongYing@hotmail.com|BLOOD TEST
+09/11/2018|WONG KAR JUN|14/11/2018|06:45pm
+ALAN ALBELT|P2016#003|YONG JIAN HUA|M
+012-4734830|NONE|foundud2111@gmail.com|X RAY SCAN
+01/11/2018|LAW SHIN HUA|13/11/2018|12:45pm
+J FERNANDON|P2016#002|ANG ZI LING|F
+018-2346543|SINUSITIS|limjin@student.tarc.edu.my|UREA TEST
+07/10/2018|LAI YUH CHAU|10/11/2018|05:45pm
+ALAN ALBELT|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|haixiao@student.tarc.edu.my|BLOOD TEST
+12/12/2018|CHIN LIN JACK|10/11/2018|12:30pm
+J FERNANDO|P2016#001|LIM SAI KEAT DEMO|M
+012-3492834|DRUG ALLERGIES|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|12/11/2018|12:30pm
+J FERNANDO|P2018#011|TAN JIN CHYI|F
+012-2993259|<none>|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|11/11/2018|04:30pm
+NG WEN JUN|P2017#005|CHONG LING|F
+016-6417375|NONE|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|13/11/2018|06:30pm
+MAX LEONG|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|<email>|<remark>
+12/12/2018|CHIN LIN JACK|14/11/2018|09:30pm
+LIM AH KAO|P2017#006|YEE LING|F
+010-2923543|SINUSITIS|<email>|MEDICENT CARE
+12/12/2018|CHIN LIN JACK|12/01/2018|07:30pm
+J FERNANDO|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|<email>|<remark>
+App->>>EOF:1211D012>004
+App->>>END BACKUP
+App->>>START ADD
+App->>>D012 ADD P2018#014 APPOINTMENT
+App->>>END ADD
+App->>>START SEARCH
+App->>>Staff Hander : D012
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+|                                                                                   |
+=====================================================================================
+App->>>Staff Hander : D012
+App->>>D012:SEARCH:APPLY DATE:12/2/2018
+App->>>END SEARCH
+App->>>START DISPLAY
+App->>>Staff Hander : D012
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+|                                                                                   |
+=====================================================================================
+App->>>END DISPLAY
+App->>>START DELETE
+App->>>Staff Hander : D012
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+|                                                                                   |
+=====================================================================================
+App->>>END DELETE
+App->>>START DAIRY
+App->>>D012 view APPOINTMENT DATE 12/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START DAIRY
+App->>>D012 view APPOINTMENT DATE 13/11/2018
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 02 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 03 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 04 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+|                                                                                   |
+=====================================================================================
+App->>>END DAIRY
+App->>>START HISTOGRAM
+App->>>Staff Hander : D012
+.                   ===============================================                   
+.                   |                                             |                   
+.                   |        Y-Axis        |    frequency         |
+.                   ===============================================                   
+.                   |      21/11/2018      |           0          |
+.                   |      20/11/2018      |           0          |
+.                   |      19/11/2018      |           0          |
+.                   |      18/11/2018      |           0          |
+.                   |      17/11/2018      |           0          |
+.                   |      16/11/2018      |           0          |
+.                   |      15/11/2018      |           0          |
+.                   |      14/11/2018      |           3          |
+.                   |      13/11/2018      |           4          |
+.                   |      12/11/2018      |           1          |
+                   |                                             |                   
+                   ===============================================                   
+App->>>END HISTOGRAM
+App->>>START RENEW
+App->>>Staff Hander : D012
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+|                                                                                   |
+=====================================================================================
+.            D012 UPDATED 1 FROM PATIEN FILE
+.            D012 UPDATED 4 FROM PATIEN FILE
+.            D012 UPDATED 11 FROM PATIEN FILE
+.            D012 UPDATED 9 FROM PATIEN FILE
+.            D012 UPDATED 8 FROM PATIEN FILE
+.            D012 UPDATED 10 FROM PATIEN FILE
+.            D012 UPDATED 16 FROM PATIEN FILE
+.            D012 UPDATED 13 FROM PATIEN FILE
+.            D012 UPDATED 15 FROM PATIEN FILE
+.            D012 UPDATED 6 FROM PATIEN FILE
+.            D012 UPDATED 3 FROM PATIEN FILE
+.            D012 UPDATED 7 FROM PATIEN FILE
+.            D012 UPDATED 14 FROM PATIEN FILE
+.            D012 UPDATED 2 FROM PATIEN FILE
+.            D012 UPDATED 17 FROM PATIEN FILE
+App->>>D012 CONFIRM TO REJECT THE CHANGES OFFORVERT DATA
+App->>>END RENEW
+App->>>START DISPLAY
+App->>>Staff Hander : D012
+=====================================================================================
+|                                                                                   |
+| No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+|===================================================================================|
+| 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+| 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+| 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+| 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+| 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+| 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+| 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+| 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+| 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+| 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+| 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+| 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+| 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+| 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+| 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+| 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+| 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+| 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+|                                                                                   |
+=====================================================================================
+App->>>END DISPLAY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START ADD
+App->>>D001 ADD P2016#001 APPOINTMENT
+App->>>END ADD
+App->>>START MODIFY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>D001 MODIFYED NO. 1
+App->>>0?y?CONFIRM TO MAKE THE CHANGES
+App->>>END MODIFY
+App->>>START SEARCH
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:PATIENT NAME:LIM SAI KEAT
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:PATIENT NAME:LIM SAI KEAT
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT MONTH:11
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END SEARCH
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DISPLAY
+App->>>START HISTOGRAM
+App->>>Staff Hander : D001
+.                           ===============================================                          
+.                           |                                             |                          
+.                           |        Y-Axis        |    frequency         |
+.                           ===============================================                          
+.                           |      21/12/2018      |           0          |
+.                           |      20/12/2018      |           0          |
+.                           |      19/12/2018      |           0          |
+.                           |      18/12/2018      |           0          |
+.                           |      17/12/2018      |           0          |
+.                           |      16/12/2018      |           0          |
+.                           |      15/12/2018      |           0          |
+.                           |      14/12/2018      |           0          |
+.                           |      13/12/2018      |           0          |
+.                           |      12/12/2018      |           0          |
+.                           |                                             |                          
+.                           ===============================================                          
+App->>>END HISTOGRAM
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:12/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 02 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>START RENEW
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT DEMO  P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT DEMO  P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 JACKY CHAN         P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        |                                                                                   |       
+        =====================================================================================       
+.            D001 UPDATED 1 FROM PATIEN FILE
+.            D001 UPDATED 4 FROM PATIEN FILE
+.            D001 UPDATED 11 FROM PATIEN FILE
+.            D001 UPDATED 19 FROM PATIEN FILE
+.            D001 UPDATED 9 FROM PATIEN FILE
+.            D001 UPDATED 8 FROM PATIEN FILE
+.            D001 UPDATED 10 FROM PATIEN FILE
+.            D001 UPDATED 16 FROM PATIEN FILE
+.            D001 UPDATED 13 FROM PATIEN FILE
+.            D001 UPDATED 15 FROM PATIEN FILE
+.            D001 UPDATED 6 FROM PATIEN FILE
+.            D001 UPDATED 3 FROM PATIEN FILE
+.            D001 UPDATED 7 FROM PATIEN FILE
+.            D001 UPDATED 14 FROM PATIEN FILE
+.            D001 UPDATED 2 FROM PATIEN FILE
+.            D001 UPDATED 18 FROM PATIEN FILE
+.            D001 UPDATED 17 FROM PATIEN FILE
+App->>>D001 CONFIRM TO MAKE THE CHANGES OF APPOINTMENT FILE
+App->>>END RENEW
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT      P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT      P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT      P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START DISPLAY
+App->>>Staff Hander : N002
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT      P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT      P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT      P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DISPLAY
+App->>>START SEARCH
+App->>>Staff Hander : N002
+App->>>N002:SEARCH:PATIENT ID:P2016002
+App->>>END SEARCH
+App->>>START DAIRY
+App->>>N002 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>START ADD
+App->>>D001 ADD P2018#015 APPOINTMENT
+App->>>END ADD
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT      P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT      P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT      P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        | 20 TAN WEE KEONG      P2018#015       12/11/2018 04:00pm        J FERNANDO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 7
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 20
+App->>>END DISPLAY
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT      P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT      P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT      P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        | 20 TAN WEE KEONG      P2018#015       12/11/2018 04:00pm        J FERNANDO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 7
+App->>>END DISPLAY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>START HISTOGRAM
+App->>>Staff Hander : D001
+.                           ===============================================                          
+.                           |                                             |                          
+.                           |        Y-Axis        |    frequency         |
+.                           ===============================================                          
+.                           |      20/11/2018      |           0          |
+.                           |      19/11/2018      |           0          |
+.                           |      18/11/2018      |           0          |
+.                           |      17/11/2018      |           0          |
+.                           |      16/11/2018      |           0          |
+.                           |      15/11/2018      |           0          |
+.                           |      14/11/2018      |           3          |
+.                           |      13/11/2018      |           4          |
+.                           |      12/11/2018      |           3          |
+.                           |      11/11/2018      |           3          |
+.                           |                                             |                          
+.                           ===============================================                          
+App->>>END HISTOGRAM
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :06/11/2018
+App->>>START HISTOGRAM
+App->>>Staff Hander : D001
+.                           ===============================================                          
+.                           |                                             |                          
+.                           |        Y-Axis        |    frequency         |
+.                           ===============================================                          
+.                           |      15/11/2018      |           0          |
+.                           |      14/11/2018      |           3          |
+.                           |      13/11/2018      |           4          |
+.                           |      12/11/2018      |           3          |
+.                           |      11/11/2018      |           3          |
+.                           |      10/11/2018      |           2          |
+.                           |      09/11/2018      |           0          |
+.                           |      08/11/2018      |           0          |
+.                           |      07/11/2018      |           0          |
+.                           |      06/11/2018      |           0          |
+.                           |                                             |                          
+.                           ===============================================                          
+App->>>END HISTOGRAM
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>START SEARCH
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:5/11/2018-12:45pm
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:13/11/2018-11:45am
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:13/11/2018
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>START SEARCH
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:11/11/2018-12:45pm
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>START SEARCH
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:11/11/2018-12:45pm
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT      P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT      P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT      P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        | 20 TAN WEE KEONG      P2018#015       12/11/2018 04:00pm        J FERNANDO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:11/11/2018-4:30pm
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:11/11/2018
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>START SEARCH
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:11/11/2018-4:30pm
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 03 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:11/11/2018-4:30am
+App->>>Staff Hander : D001
+App->>>D001:SEARCH:APPOINTMENT TIME:11\11\2018-4:30pm
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>D001 VIEW DETAIL APPOINTMENT NO. 1
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START RENEW
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT      P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT      P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT      P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        | 20 TAN WEE KEONG      P2018#015       12/11/2018 04:00pm        J FERNANDO        |
+        | 21 LIM SAI KEAT       P2018#017       01/01/2018 02:50pm        CHIN LIN JACK     |
+        | 22 LIM SAI KEAT       P2018#017       01/01/2018 12:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+.            D001 UPDATED 1 FROM PATIEN FILE
+.            D001 UPDATED 4 FROM PATIEN FILE
+.            D001 UPDATED 11 FROM PATIEN FILE
+.            D001 UPDATED 19 FROM PATIEN FILE
+.            D001 UPDATED 9 FROM PATIEN FILE
+.            D001 UPDATED 8 FROM PATIEN FILE
+.            D001 UPDATED 10 FROM PATIEN FILE
+.            D001 UPDATED 16 FROM PATIEN FILE
+.            D001 UPDATED 13 FROM PATIEN FILE
+.            D001 UPDATED 15 FROM PATIEN FILE
+.            D001 UPDATED 6 FROM PATIEN FILE
+.            D001 UPDATED 3 FROM PATIEN FILE
+.            D001 UPDATED 7 FROM PATIEN FILE
+.            D001 UPDATED 14 FROM PATIEN FILE
+.            D001 UPDATED 2 FROM PATIEN FILE
+.            D001 UPDATED 18 FROM PATIEN FILE
+.            D001 UPDATED 17 FROM PATIEN FILE
+.            D001 UPDATED 20 FROM PATIEN FILE
+.            D001 UPDATED 21 FROM PATIEN FILE
+.            D001 UPDATED 22 FROM PATIEN FILE
+App->>>D001 CONFIRM TO MAKE THE CHANGES OF APPOINTMENT FILE
+App->>>END RENEW
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT      P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT      P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT      P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        | 20 TAN WEE KEONG      P2018#015       12/11/2018 04:00pm        J FERNANDO        |
+        | 21 LIM SAI KEAT       P2018#017       01/01/2018 02:50pm        CHIN LIN JACK     |
+        | 22 LIM SAI KEAT       P2018#017       01/01/2018 12:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DISPLAY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :12/12/2018
+App->>>START RENEW
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT      P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT      P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT      P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT      P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        | 20 TAN WEE KEONG      P2018#015       12/11/2018 04:00pm        J FERNANDO        |
+        | 21 LIM SAI KEAT       P2018#017       01/01/2018 02:50pm        CHIN LIN JACK     |
+        | 22 LIM SAI KEAT       P2018#017       01/01/2018 12:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+.            D001 UPDATED 1 FROM PATIEN FILE
+.            D001 UPDATED 4 FROM PATIEN FILE
+.            D001 UPDATED 11 FROM PATIEN FILE
+.            D001 UPDATED 19 FROM PATIEN FILE
+.            D001 UPDATED 9 FROM PATIEN FILE
+.            D001 UPDATED 8 FROM PATIEN FILE
+.            D001 UPDATED 10 FROM PATIEN FILE
+.            D001 UPDATED 16 FROM PATIEN FILE
+.            D001 UPDATED 13 FROM PATIEN FILE
+.            D001 UPDATED 15 FROM PATIEN FILE
+.            D001 UPDATED 6 FROM PATIEN FILE
+.            D001 UPDATED 3 FROM PATIEN FILE
+.            D001 UPDATED 7 FROM PATIEN FILE
+.            D001 UPDATED 14 FROM PATIEN FILE
+.            D001 UPDATED 2 FROM PATIEN FILE
+.            D001 UPDATED 18 FROM PATIEN FILE
+.            D001 UPDATED 17 FROM PATIEN FILE
+.            D001 UPDATED 20 FROM PATIEN FILE
+.            D001 UPDATED 21 FROM PATIEN FILE
+.            D001 UPDATED 22 FROM PATIEN FILE
+App->>>D001 CONFIRM TO MAKE THE CHANGES OF APPOINTMENT FILE
+App->>>END RENEW
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :10/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 10/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 02 LIM XIAO KEAT 2    P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>START HISTOGRAM
+App->>>Staff Hander : D001
+.                           ===============================================                          
+.                           |                                             |                          
+.                           |        Y-Axis        |    frequency         |
+.                           ===============================================                          
+.                           |      19/11/2018      |           0          |
+.                           |      18/11/2018      |           0          |
+.                           |      17/11/2018      |           0          |
+.                           |      16/11/2018      |           0          |
+.                           |      15/11/2018      |           0          |
+.                           |      14/11/2018      |           3          |
+.                           |      13/11/2018      |           4          |
+.                           |      12/11/2018      |           3          |
+.                           |      11/11/2018      |           3          |
+.                           |      10/11/2018      |           2          |
+.                           |                                             |                          
+.                           ===============================================                          
+App->>>END HISTOGRAM
+App->>>START BACKUP
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM XIAO KEAT 2    P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM XIAO KEAT 2    P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM XIAO KEAT 2    P2016#001       10/11/2018 12:30pm        J FERNANDO        |
+        | 12 TAN JIN CHYI       P2018#011       12/11/2018 12:30pm        J FERNANDO        |
+        | 13 CHONG LING         P2017#005       11/11/2018 04:30pm        NG WEN JUN        |
+        | 14 ITSUKA KOTORI      P2017#008       13/11/2018 06:30pm        MAX LEONG         |
+        | 15 YEE LING           P2017#006       14/11/2018 09:30pm        LIM AH KAO        |
+        | 16 MR CHENG BOON      P2016#004       12/01/2018 07:30pm        J FERNANDO        |
+        | 17 J KEY CHAIN        P2018#014       12/02/2018 12:30pm        CHIN LIN JACK     |
+        | 18 SEAN CHI KIANG     P2018#013       12/11/2018 04:30pm        ALAN ALBELT       |
+        | 19 LIM XIAO KEAT 2    P2016#001       12/02/2018 12:30pm        LIM AH KAO        |
+        | 20 TAN WEE KEONG      P2018#015       12/11/2018 04:00pm        J FERNANDO        |
+        | 21 LIM SAI KEAT       P2018#017       01/01/2018 02:50pm        CHIN LIN JACK     |
+        | 22 LIM SAI KEAT       P2018#017       01/01/2018 12:30pm        NG WEN JUN        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>D001 saved the backup
+App->>>BACKUP :1011D001>005
+11/11/2018|LAI YUH CHAU|01/11/2018|11:45am
+J FERNANDO|P2016#001|LIM XIAO KEAT 2|M
+011-9993292|DRUG ALLERGIES|sejarasakura@gmail.com|CHECK BLOOD
+12/11/2018|SITI FATIMAH|05/11/2018|12:45pm
+ALAN ALBELT|P2017#009|LIM TIAN SHI|F
+012-3247326|FOOD ALLERGIES|bkng19@yahoomail.com|XRAY SCAN
+09/11/2018|LAI YUH CHAU|14/11/2018|01:45pm
+CHIN LIN JACK|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yamakichi@gmail.com|NEED MEDICENT
+08/10/2018|SHIN HUI|13/11/2018|11:45am
+NG WEN JUN|P2016#001|LIM XIAO KEAT 2|M
+011-9993292|DRUG ALLERGIES|yukichan@hotmail.com|PHYCOLOGY TEST
+31/10/2018|WONG KAR JUN|11/11/2018|02:45pm
+MAX LEONG|P2018#010|SOON JONG RE|M
+018-4858495|SINUSITIS|boonTheChuan@gmail.com|BLOOD TEST
+01/11/2018|LAW SHIN HUA|11/11/2018|08:45pm
+WONG KAR HAO|P2017#007|MUHAMAD FARAH|F
+013-4312943|ASTHMA|foundud2111@gmail.com|INJECTION
+28/10/2018|CHIN XIAO HUI|13/11/2018|04:45pm
+MAX LEONG|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|yeongYing@hotmail.com|BLOOD TEST
+09/11/2018|WONG KAR JUN|14/11/2018|06:45pm
+ALAN ALBELT|P2016#003|YONG JIAN HUA|M
+012-4734830|NONE|foundud2111@gmail.com|X RAY SCAN
+01/11/2018|LAW SHIN HUA|13/11/2018|12:45pm
+J FERNANDON|P2016#002|ANG ZI LING|F
+018-2346543|SINUSITIS|limjin@student.tarc.edu.my|UREA TEST
+07/10/2018|LAI YUH CHAU|10/11/2018|05:45pm
+ALAN ALBELT|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|haixiao@student.tarc.edu.my|BLOOD TEST
+12/12/2018|CHIN LIN JACK|10/11/2018|12:30pm
+J FERNANDO|P2016#001|LIM XIAO KEAT 2|M
+011-9993292|DRUG ALLERGIES|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|12/11/2018|12:30pm
+J FERNANDO|P2018#011|TAN JIN CHYI|F
+012-2993259|<none>|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|11/11/2018|04:30pm
+NG WEN JUN|P2017#005|CHONG LING|F
+016-6417375|NONE|<NONE>|<remark>
+12/12/2018|CHIN LIN JACK|13/11/2018|06:30pm
+MAX LEONG|P2017#008|ITSUKA KOTORI|F
+018-3749324|NONE|<email>|<remark>
+12/12/2018|CHIN LIN JACK|14/11/2018|09:30pm
+LIM AH KAO|P2017#006|YEE LING|F
+010-2923543|SINUSITIS|<email>|MEDICENT CARE
+12/12/2018|CHIN LIN JACK|12/01/2018|07:30pm
+J FERNANDO|P2016#004|MR CHENG BOON|M
+017-8345920|SINUSITIS|<email>|<remark>
+12/11/2018|ALAN ALBELT|12/02/2018|12:30pm
+CHIN LIN JACK|P2018#014|J KEY CHAIN|F
+012-3232420|SKIN ALLERGIES|<email>|GSG
+11/11/2018|CHIN LIN JACK|12/11/2018|04:30pm
+ALAN ALBELT|P2018#013|SEAN CHI KIANG|M
+018-3947326|SEAFOOD ALLERGIES|<email>|<remark>
+12/12/2018|CHIN LIN JACK|12/02/2018|12:30pm
+LIM AH KAO|P2016#001|LIM XIAO KEAT 2|M
+011-9993292|DRUG ALLERGIES|<email>|<remark>
+11/11/2018|CHIN LIN JACK|12/11/2018|04:00pm
+J FERNANDO|P2018#015|TAN WEE KEONG|M
+013-2246785|LEG BEND|akao@gmail.com|BLOOD TEST
+11/11/2018|CHIN LIN JACK|01/01/2018|02:50pm
+CHIN LIN JACK|P2018#017|LIM SAI KEAT|F
+012-8231012|ADAW|<email>|<remark>
+11/11/2018|CHIN LIN JACK|01/01/2018|12:30pm
+NG WEN JUN|P2018#017|LIM SAI KEAT|F
+012-8231012|ADAW|<email>|ALLERGIES
+App->>>EOF:1011D001>005
+App->>>END BACKUP
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DISPLAY
+App->>>START DISPLAY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+        | 12 SEAN CHI KIANG     P2018#013       12/11/2018 02:30pm        WONG KAR HAO      |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DISPLAY
+App->>>APPOINTMENT END
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>APPOINTMENT START
+App->>>USING DATE :11/11/2018
+App->>>START DAIRY
+App->>>D001 view APPOINTMENT DATE 11/11/2018
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 02 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>END DAIRY
+App->>>START HISTOGRAM
+App->>>Staff Hander : D001
+.                           ===============================================                          
+.                           |                                             |                          
+.                           |        Y-Axis        |    frequency         |
+.                           ===============================================                          
+.                           |      20/11/2018      |           0          |
+.                           |      19/11/2018      |           0          |
+.                           |      18/11/2018      |           0          |
+.                           |      17/11/2018      |           0          |
+.                           |      16/11/2018      |           0          |
+.                           |      15/11/2018      |           0          |
+App->>>APPOINTMENT START
+App->>>USING DATE :12/03/2020
+App->>>START ADD
+App->>>D001 ADD P2018#014 APPOINTMENT
+App->>>END ADD
+App->>>START MODIFY
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+        | 12 SEAN CHI KIANG     P2018#013       12/11/2018 02:30pm        WONG KAR HAO      |
+        | 13 J KEY CHAIN        P2018#014       12/02/2019 12:30pm        CHIN LIN JACK     |
+        |                                                                                   |       
+        =====================================================================================       
+App->>>D001 MODIFYED NO. 1
+App->>>Staff Hander : D001
+        =====================================================================================       
+        |                                                                                   |       
+        | No Patient Name       Patient ID      Appointment Date&Time     Prefer Doctor     |
+        |===================================================================================|       
+        | 01 LIM SAI KEAT       P2016#001       01/11/2018 11:45am        J FERNANDO        |
+        | 02 LIM TIAN SHI       P2017#009       05/11/2018 12:45pm        ALAN ALBELT       |
+        | 03 ITSUKA KOTORI      P2017#008       14/11/2018 01:45pm        CHIN LIN JACK     |
+        | 04 LIM SAI KEAT       P2016#001       13/11/2018 11:45am        NG WEN JUN        |
+        | 05 SOON JONG RE       P2018#010       11/11/2018 02:45pm        MAX LEONG         |
+        | 06 MUHAMAD FARAH      P2017#007       11/11/2018 08:45pm        WONG KAR HAO      |
+        | 07 ITSUKA KOTORI      P2017#008       13/11/2018 04:45pm        MAX LEONG         |
+        | 08 YONG JIAN HUA      P2016#003       14/11/2018 06:45pm        ALAN ALBELT       |
+        | 09 ANG ZI LING        P2016#002       13/11/2018 12:45pm        J FERNANDON       |
+        | 10 MR CHENG BOON      P2016#004       10/11/2018 05:45pm        ALAN ALBELT       |
+        | 11 LIM SAI KEAT       P2016#001       12/02/2018 12:30pm        J FERNANDO        |
+        | 12 SEAN CHI KIANG     P2018#013       12/11/2018 02:30pm        WONG KAR HAO      |
+        | 13 J KEY CHAIN        P2018#014       12/02/2019 12:30pm        CHIN LIN JACK     |
+        |                                                                                   |       
+        =====================================================================================       

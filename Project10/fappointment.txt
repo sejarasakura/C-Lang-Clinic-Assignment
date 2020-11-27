@@ -1,0 +1,143 @@
+Today Date            : 11/11/2018
+Sarft On Duty         : LAI YUH CHAU
+Appointment Date Time : 01/11/2018-11:45am
+Prefer Doctor         : J FERNANDO
+Patient ID            : P2016#001
+Name                  : LIM SAI KEAT
+Gender                : M
+Contat Number         : 012-3492834
+Allergies             : DRUG ALLERGIES
+Emil Address          : sejarasakura@gmail.com
+Remark                : CHECK BLOOD
+Today Date            : 12/11/2018
+Sarft On Duty         : SITI FATIMAH
+Appointment Date Time : 05/11/2018-12:45pm
+Prefer Doctor         : ALAN ALBELT
+Patient ID            : P2017#009
+Name                  : LIM TIAN SHI
+Gender                : F
+Contat Number         : 012-3247326
+Allergies             : FOOD ALLERGIES
+Emil Address          : bkng19@yahoomail.com
+Remark                : XRAY SCAN
+Today Date            : 09/11/2018
+Sarft On Duty         : LAI YUH CHAU
+Appointment Date Time : 14/11/2018-01:45pm
+Prefer Doctor         : CHIN LIN JACK
+Patient ID            : P2017#008
+Name                  : ITSUKA KOTORI
+Gender                : F
+Contat Number         : 018-3749324
+Allergies             : NONE
+Emil Address          : yamakichi@gmail.com
+Remark                : NEED MEDICENT
+Today Date            : 08/10/2018
+Sarft On Duty         : SHIN HUI
+Appointment Date Time : 13/11/2018-11:45am
+Prefer Doctor         : NG WEN JUN
+Patient ID            : P2016#001
+Name                  : LIM SAI KEAT
+Gender                : M
+Contat Number         : 012-3492834
+Allergies             : DRUG ALLERGIES
+Emil Address          : yukichan@hotmail.com
+Remark                : PHYCOLOGY TEST
+Today Date            : 31/10/2018
+Sarft On Duty         : WONG KAR JUN
+Appointment Date Time : 11/11/2018-02:45pm
+Prefer Doctor         : MAX LEONG
+Patient ID            : P2018#010
+Name                  : SOON JONG RE
+Gender                : M
+Contat Number         : 018-4858495
+Allergies             : SINUSITIS
+Emil Address          : boonTheChuan@gmail.com
+Remark                : BLOOD TEST
+Today Date            : 01/11/2018
+Sarft On Duty         : LAW SHIN HUA
+Appointment Date Time : 11/11/2018-08:45pm
+Prefer Doctor         : WONG KAR HAO
+Patient ID            : P2017#007
+Name                  : MUHAMAD FARAH
+Gender                : F
+Contat Number         : 013-4312943
+Allergies             : ASTHMA
+Emil Address          : foundud2111@gmail.com
+Remark                : INJECTION
+Today Date            : 28/10/2018
+Sarft On Duty         : CHIN XIAO HUI
+Appointment Date Time : 13/11/2018-04:45pm
+Prefer Doctor         : MAX LEONG
+Patient ID            : P2017#008
+Name                  : ITSUKA KOTORI
+Gender                : F
+Contat Number         : 018-3749324
+Allergies             : NONE
+Emil Address          : yeongYing@hotmail.com
+Remark                : BLOOD TEST
+Today Date            : 09/11/2018
+Sarft On Duty         : WONG KAR JUN
+Appointment Date Time : 14/11/2018-06:45pm
+Prefer Doctor         : ALAN ALBELT
+Patient ID            : P2016#003
+Name                  : YONG JIAN HUA
+Gender                : M
+Contat Number         : 012-4734830
+Allergies             : NONE
+Emil Address          : foundud2111@gmail.com
+Remark                : X RAY SCAN
+Today Date            : 01/11/2018
+Sarft On Duty         : LAW SHIN HUA
+Appointment Date Time : 13/11/2018-12:45pm
+Prefer Doctor         : J FERNANDON
+Patient ID            : P2016#002
+Name                  : ANG ZI LING
+Gender                : F
+Contat Number         : 018-2346543
+Allergies             : SINUSITIS
+Emil Address          : limjin@student.tarc.edu.my
+Remark                : UREA TEST
+Today Date            : 07/10/2018
+Sarft On Duty         : LAI YUH CHAU
+Appointment Date Time : 10/11/2018-05:45pm
+Prefer Doctor         : ALAN ALBELT
+Patient ID            : P2016#004
+Name                  : MR CHENG BOON
+Gender                : M
+Contat Number         : 017-8345920
+Allergies             : SINUSITIS
+Emil Address          : haixiao@student.tarc.edu.my
+Remark                : BLOOD TEST
+Today Date            : 12/12/2018
+Sarft On Duty         : CHIN LIN JACK
+Appointment Date Time : 12/02/2018-12:30pm
+Prefer Doctor         : J FERNANDO
+Patient ID            : P2016#001
+Name                  : LIM SAI KEAT
+Gender                : M
+Contat Number         : 012-3492834
+Allergies             : DRUG ALLERGIES
+Emil Address          : <NONE>
+Remark                : <remark>
+Today Date            : 11/11/2018
+Sarft On Duty         : CHIN LIN JACK
+Appointment Date Time : 12/11/2018-02:30pm
+Prefer Doctor         : WONG KAR HAO
+Patient ID            : P2018#013
+Name                  : SEAN CHI KIANG
+Gender                : M
+Contat Number         : 018-3941243
+Allergies             : SEAFOOD ALLERGIES
+Emil Address          : <email>
+Remark                : <remark>
+Today Date            : 12/03/2020
+Sarft On Duty         : CHIN LIN JACK
+Appointment Date Time : 12/02/2019-12:30pm
+Prefer Doctor         : CHIN LIN JACK
+Patient ID            : P2018#014
+Name                  : J KEY CHAIN
+Gender                : F
+Contat Number         : 012-3232420
+Allergies             : SKIN ALLERGIES
+Emil Address          : <email>
+Remark                : <remark>
